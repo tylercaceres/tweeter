@@ -1,0 +1,33 @@
+#new-tweet-button {
+	color: white;
+	background-color: #4056a1;
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Bungee', sans-serif;
+	padding: 5px 10px;
+	position: relative;
+}
+
+form > textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	outline: none;
+	width: 100%;
+	border: none;
+	color: black;
+	border-bottom: 5px black solid;
+	margin-bottom: 5px;
+	resize: none;
+	background-color: transparent;
+}
+
+.counter {
+	position: absolute;
+	right: 1.5em;
+	font-family: 'Bungee', sans-serif;
+}
+
+main > section.new-tweet > h2 {
+	margin: 2px;
+}

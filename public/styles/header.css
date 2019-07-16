@@ -1,0 +1,24 @@
+header {
+	height: 400px;
+	width: 100%;
+	position: absolute;
+	top: 120px;
+	background-color: orange;
+	padding: 0;
+	margin: 0;
+	color: white;
+	background-color: #f21c00;
+	background-image: url('https://www.transparenttextures.com/patterns/black-paper.png');
+}
+
+header div img {
+	display: block;
+	margin: 0 auto;
+}
+
+header div #name {
+	text-align: center;
+	position: relative;
+	padding: 0;
+	font-weight: 500;
+}
