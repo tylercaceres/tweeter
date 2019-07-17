@@ -12,6 +12,12 @@ const renderTweets = function(tweets) {
   $('#tweet-container').append(arr);
 };
 
+const escape = function(str) {
+  let div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 const createTweetElement = function(tweet) {
   let newArticle = `
         <article class="tweet">
@@ -21,7 +27,7 @@ const createTweetElement = function(tweet) {
 							<span class="tweet-username">${tweet.user.handle}</span>
 						</div>
 					</header>
-					<p>${tweet.content.text}</p>
+					<p>${escape(tweet.content.text)}</p>
 					<footer>
 						<div class="article-footer">
 							<span class="days-ago">${
