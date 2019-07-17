@@ -1,14 +1,20 @@
 $(document).ready(function() {
-  $('form').submit(function(event) {
-    let charsLeft = 140 - $('this textarea').val().length;
-    console.log(charsLeft);
-
-    console.log($(this).serialize());
+  $('form').on('submit', function(event) {
     event.preventDefault();
-    $.ajax('/tweets/', {
-      type: 'POST',
-      data: $(this).serialize(),
-      dataType: 'text'
-    });
+    let charsLeft = 140 - $('#new-tweet-input').val().length;
+    if (charsLeft < 0) {
+      alert('Too many characters. Please reduce.');
+    } else if (charsLeft === 140) {
+      alert('No message entered');
+    } else {
+      $.ajax({
+        type: 'POST',
+        url: '/tweets/',
+        data: $(this).serialize(),
+        dataType: 'text'
+      }).done(() => {
+        loadTweet();
+      });
+    }
   });
 });

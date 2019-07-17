@@ -18,5 +18,3 @@ const characterCounter = () => {
 $(document).ready(function() {
   characterCounter();
 });
-
-export.modules = {characterCount};
