@@ -21,14 +21,14 @@ body {
 	background-color: #f4f1ec;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 120px; /* equal to fixed header */
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
 main.container {
-	position: absolute;
-	top: 520px;
 	width: 90%;
 	margin: auto 5%;
 }

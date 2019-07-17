@@ -1,15 +1,12 @@
-#new-tweet-button {
-	color: white;
-	background-color: #4056a1;
-	border: none;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Bungee', sans-serif;
-	padding: 5px 10px;
+.new-tweet {
 	position: relative;
 }
 
-form > textarea {
+.new-tweet > h2 {
+	margin: 2px;
+}
+
+.new-tweet > form > textarea {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
 	outline: none;
@@ -22,12 +19,27 @@ form > textarea {
 	background-color: transparent;
 }
 
-.counter {
-	position: absolute;
-	right: 1.5em;
+.new-tweet #new-tweet-button {
+	color: white;
+	background-color: #4056a1;
+	border: none;
+	/* text-align: center; */
+	text-transform: uppercase;
+	font-family: 'Bungee', sans-serif;
+	/* padding: 5px 10px; */
+}
+
+.new-tweet .counter {
+	/* position: absolute;
+	right: 0; */
 	font-family: 'Bungee', sans-serif;
 }
 
-main > section.new-tweet > h2 {
-	margin: 2px;
+.new-tweet .button-counter-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.invalid-font {
+	color: red;
 }
