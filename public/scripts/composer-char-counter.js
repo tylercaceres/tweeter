@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  console.log('hello');
+//character function counter
+const characterCounter = () => {
   $('#new-tweet-input').on('keyup', function() {
     let $counter = $(this)
       .siblings('div')
@@ -13,4 +13,10 @@ $(document).ready(function() {
       $counter.removeClass('invalid-font');
     }
   });
+};
+
+$(document).ready(function() {
+  characterCounter();
 });
+
+export.modules = {characterCount};

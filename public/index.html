@@ -29,6 +29,8 @@
 		<script type="text/javascript" src="/scripts/app.js"></script>
 		<!-- Composer Char Counter JS -->
 		<script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+		<!-- New Tweet JS -->
+		<script type="text/javascript" src="/scripts/new-tweet.js"></script>
 	</head>
 
 	<body>
@@ -50,10 +52,10 @@
 		<!-- Page-specific (main) content here -->
 		<main class="container">
 			<section class="new-tweet">
-				<h2>Compose Tweet <i class="fas fa-retweet"></i></h2>
+				<h2>Compose Tweet</h2>
 				<form action="/tweets/" method="POST">
 					<!-- attribute for the text area field maxlength="140" -->
-					<textarea id="new-tweet-input" placeholder="What are you humming about?"></textarea>
+					<textarea id="new-tweet-input" name="text" placeholder="What are you humming about?"></textarea>
 					<div class="button-counter-container">
 						<input id="new-tweet-button" type="submit" value="Tweet" />
 						<span class="counter">140</span>
