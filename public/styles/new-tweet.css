@@ -40,6 +40,19 @@
 	justify-content: space-between;
 }
 
+div.error-msg {
+	border: 5px solid red;
+	margin: 5px 0;
+	color: red;
+	font-weight: bolder;
+	text-align: center;
+	display: none;
+}
+
+/* div.error-msg.error {
+	display: block;
+} */
+
 .invalid-font {
 	color: red;
 }

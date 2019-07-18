@@ -1,0 +1,16 @@
+#scroll-to-top-btn {
+	z-index: 5;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+#scroll-to-top-btn.scrollVisible {
+	display: block;
+}
+
+nav > div.new-tweet-div.scrollHidden {
+	display: none;
+}

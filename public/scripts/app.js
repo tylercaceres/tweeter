@@ -30,9 +30,9 @@ const createTweetElement = function(tweet) {
 					<p>${escape(tweet.content.text)}</p>
 					<footer>
 						<div class="article-footer">
-							<span class="days-ago">${
-  tweet.created_at
-}</span><span class="footer-actions"><div class="icons"><img src="/images/flag.png"><img src="/images/retweet.png"><img src="/images/heart.png"></div></span>
+							<span class="days-ago">${moment(
+    new Date(tweet.created_at)
+  ).fromNow()}</span><span class="footer-actions"><div class="icons"><img src="/images/flag.png"><img src="/images/retweet.png"><img src="/images/heart.png"></div></span>
 						</div>
 					</footer>
 				</article>`;

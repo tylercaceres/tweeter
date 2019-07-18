@@ -1,4 +1,4 @@
-body > header {
+#headerContainer {
 	height: 400px;
 	color: white;
 	background-color: #f21c00;
@@ -9,7 +9,7 @@ body > header {
 	justify-content: center;
 }
 
-body > header > div > .name {
+#accountName {
 	font-weight: 500;
 	margin: 0;
 }

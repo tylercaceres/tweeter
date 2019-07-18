@@ -32,3 +32,31 @@ main.container {
 	width: 90%;
 	margin: auto 5%;
 }
+
+.cont {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+	#headerWrapper {
+		width: 50%;
+		float: left;
+	}
+	#headerContainer {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 6rem;
+	}
+
+	#containerWrapper {
+		width: 50%;
+		float: right;
+	}
+
+	#tweetContainer {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 6rem;
+	}
+}

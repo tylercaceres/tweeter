@@ -4,7 +4,8 @@ nav {
 	top: 0;
 	width: 100%;
 	z-index: 10;
-	background-color: #4056a1;
+	background-color: #f21c00;
+	background-image: url('https://www.transparenttextures.com/patterns/black-paper.png');
 	font-family: 'Bungee', sans-serif;
 	color: #ffffff;
 	padding: 1.5em;
@@ -12,6 +13,31 @@ nav {
 	justify-content: space-between;
 }
 
-nav > .new-tweet {
+nav > div.new-tweet-div {
 	font-family: 'Source Sans Pro', sans-serif;
+	display: flex;
+	flex-direction: column;
 }
+
+div.new-tweet-div > img.new-tweet-button {
+	align-self: center;
+	animation: MoveUpDown 1s linear infinite;
+	cursor: pointer;
+	width: 1.5em;
+}
+
+@keyframes MoveUpDown {
+	0%,
+	100% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+}
+
+@media (min-width: 1024px) {
+	nav {
+		background-color: #4056a1;
+		background-image: none;
+	}
