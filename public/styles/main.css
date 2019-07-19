@@ -1,8 +1,8 @@
 @import '../vendor/normalize-4.1.1.css';
 
 @import './layout.css';
-@import './header.css';
 @import './nav.css';
+@import './header.css';
 @import './new-tweet.css';
 @import './scroll-top.css';
 @import './tweet-list.css';

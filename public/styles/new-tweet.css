@@ -1,4 +1,8 @@
-.new-tweet > form > textarea {
+.new-tweet > h2 {
+	margin: 2px;
+}
+
+#new-tweet-input {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
 	outline: none;
@@ -11,28 +15,24 @@
 	background-color: transparent;
 }
 
-.new-tweet #new-tweet-button {
+#new-tweet-button {
 	color: white;
 	background-color: #4056a1;
 	border: none;
-	/* text-align: center; */
 	text-transform: uppercase;
 	font-family: 'Bungee', sans-serif;
-	/* padding: 5px 10px; */
 }
 
-.new-tweet .counter {
-	/* position: absolute;
-	right: 0; */
+.counter {
 	font-family: 'Bungee', sans-serif;
 }
 
-.new-tweet .button-counter-container {
+.button-counter-container {
 	display: flex;
 	justify-content: space-between;
 }
 
-div.error-msg {
+.error-msg {
 	border: 5px solid red;
 	margin: 5px 0;
 	color: red;
