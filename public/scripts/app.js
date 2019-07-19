@@ -1,3 +1,4 @@
+//creates the HTML elements that will be appended to tweeter list
 const renderTweets = function(tweets) {
   let arr = [];
   for (let tweet of tweets) {
@@ -6,12 +7,14 @@ const renderTweets = function(tweets) {
   $('#tweet-container').append(arr);
 };
 
+//removes code functionality if entered as tweet input
 const escape = function(str) {
   let div = document.createElement('div');
   div.appendChild(document.createTextNode(str));
   return div.innerHTML;
 };
 
+//creates individual html element
 const createTweetElement = function(tweet) {
   let newArticle = `
         <article class="tweet">
@@ -34,6 +37,7 @@ const createTweetElement = function(tweet) {
   return newArticle;
 };
 
+//fetches tweets from server
 const loadTweet = function() {
   $.ajax({type: 'GET', url: '/tweets/', dataType: 'json'}).done((data) => {
     $('#tweet-container').empty();

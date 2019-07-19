@@ -1,4 +1,4 @@
-//scroll to top of the page
+//toggling of visibility between compose tweet and top of page button
 const windowScroll = () => {
   $(window).scroll(function() {
     if ($(this).scrollTop()) {
@@ -11,6 +11,7 @@ const windowScroll = () => {
   });
 };
 
+//clicking arrow button sends to top of page
 const scrollToTop = () => {
   $('#scroll-to-top-btn').on('click', function(event) {
     $(window).scrollTop(0);

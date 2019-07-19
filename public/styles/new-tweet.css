@@ -44,3 +44,7 @@
 .invalid-font {
 	color: red;
 }
+
+#new-tweet-area {
+	display: none;
+}

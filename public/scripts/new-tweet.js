@@ -1,3 +1,4 @@
+//post request for new tweet
 const submitForm = () => {
   $('form').on('submit', function(event) {
     event.preventDefault();
@@ -25,6 +26,7 @@ const submitForm = () => {
   });
 };
 
+//toggles display of new tweet input area
 const hideNewSection = () => {
   $('img.new-tweet-icon').on('click', function(event) {
     $('section.new-tweet').slideToggle(500);

@@ -26,7 +26,6 @@ list-tweet {
 
 .tweet p {
 	border-bottom: 3px solid black;
-	/* padding: 30px 0; */
 	font-weight: bold;
 	font-size: 18px;
 }
@@ -47,6 +46,14 @@ list-tweet {
 .tweet span img {
 	height: 2em;
 	width: 2em;
+}
+
+.tweet:hover div.article-footer span.footer-actions {
+	opacity: 1;
+}
+
+.tweet div.article-footer span.footer-actions {
+	opacity: 0;
 }
 
 .icons {
