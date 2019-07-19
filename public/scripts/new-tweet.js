@@ -26,7 +26,7 @@ const submitForm = () => {
 };
 
 const hideNewSection = () => {
-  $('img.new-tweet-button').on('click', function(event) {
+  $('img.new-tweet-icon').on('click', function(event) {
     $('section.new-tweet').slideToggle(500);
     $('#new-tweet-input').focus();
   });

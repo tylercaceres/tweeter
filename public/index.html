@@ -10,12 +10,7 @@
 			href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300,300i,300b,700i&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="/styles/layout.css" type="text/css" />
-		<link rel="stylesheet" href="/styles/nav.css" type="text/css" />
-		<link rel="stylesheet" href="/styles/header.css" type="text/css" />
-		<link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
-		<link rel="stylesheet" href="/styles/tweet-list.css" type="text/css" />
-		<link rel="stylesheet" href="/styles/scroll-top.css" type="text/css" />
+		<link rel="stylesheet" href="/styles/main.css" type="text/css" />
 
 		<!-- Import javascript files -->
 		<script type="text/javascript" src=" /vendor/jquery-2.2.3.min.js"></script>
@@ -28,18 +23,19 @@
 
 	<body>
 		<img id="scroll-to-top-btn" src="/images/scroll-top.png" />
-		<nav>
+		<nav id="nav-panel">
 			<span>tweeter</span>
 			<div class="new-tweet-div">
 				<span class="new-tweet"><strong>Write</strong> a new tweet</span>
-				<img class="new-tweet-button" src="/images/down-arrow.png" />
+				<img class="new-tweet-icon" src="/images/down-arrow.png" />
 			</div>
 		</nav>
 
 		<div id="headerWrapper">
 			<header class="c1" id="headerContainer">
 				<div>
-					<img src="/images/profile-hex.png" />
+					<!-- <img src="/images/profile-hex.png" /> -->
+					<img src="/images/brolly.png" />
 				</div>
 				<div>
 					<h2 id="accountName" class="name"><strong>Tyler</strong> Caceres</h2>
@@ -49,7 +45,7 @@
 
 		<!-- Page-specific (main) content here -->
 		<div id="containerWrapper">
-			<main id="tweetContainer" class="container">
+			<main id="tweetContainer">
 				<section class="new-tweet">
 					<div class="error-msg">
 						<label class="error-msg-txt"

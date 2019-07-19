@@ -28,13 +28,13 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
-main.container {
-	width: 90%;
-	margin: auto 5%;
+#containerWrapper {
+	width: 100%;
+	margin: 0% auto;
 }
 
-.cont {
-	width: 100%;
+#tweetContainer {
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -46,7 +46,7 @@ main.container {
 	#headerContainer {
 		width: 90%;
 		margin: 0 auto;
-		margin-top: 6rem;
+		margin-top: 2rem;
 	}
 
 	#containerWrapper {
@@ -57,6 +57,6 @@ main.container {
 	#tweetContainer {
 		width: 90%;
 		margin: 0 auto;
-		margin-top: 6rem;
+		margin-top: 2rem;
 	}
 }

@@ -1,11 +1,3 @@
-.new-tweet {
-	position: relative;
-}
-
-.new-tweet > h2 {
-	margin: 2px;
-}
-
 .new-tweet > form > textarea {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
@@ -48,10 +40,6 @@ div.error-msg {
 	text-align: center;
 	display: none;
 }
-
-/* div.error-msg.error {
-	display: block;
-} */
 
 .invalid-font {
 	color: red;

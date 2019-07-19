@@ -1,4 +1,4 @@
-nav {
+#nav-panel {
 	position: fixed;
 	height: 120px;
 	top: 0;
@@ -13,13 +13,13 @@ nav {
 	justify-content: space-between;
 }
 
-nav > div.new-tweet-div {
+.new-tweet-div {
 	font-family: 'Source Sans Pro', sans-serif;
 	display: flex;
 	flex-direction: column;
 }
 
-div.new-tweet-div > img.new-tweet-button {
+.new-tweet-icon {
 	align-self: center;
 	animation: MoveUpDown 1s linear infinite;
 	cursor: pointer;
@@ -37,7 +37,8 @@ div.new-tweet-div > img.new-tweet-button {
 }
 
 @media (min-width: 1024px) {
-	nav {
+	#nav-panel {
 		background-color: #4056a1;
 		background-image: none;
 	}
+}
