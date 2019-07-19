@@ -15,3 +15,17 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Functionality
+
+Tweeter is able to retrieve and posts tweets. The compose new tweet section is hidden upon initial loading of the screen, however by clicking on "write a new tweet" the input area appears.
+When scrolling down a "scroll to top" button appears on the bottom right side of the page. The layout is responsive and fits both mobile and desktop platforms.
+Avatars were modified from original avatars used for this project.
+
+## Final Product
+
+!["screenshot of home page on initial load"](./docs/desktop.png)
+!["screenshot of writing a new tweet"](./docs/write-tweet.png)
+!["screenshot of mobile view"](./docs/mobile.png)
+!["screenshot of error message #1"](./docs/error-1.png)
+!["screenshot of error message #2"](./docs/error-2.png)
