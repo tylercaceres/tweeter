@@ -24,8 +24,13 @@ Avatars were modified from original avatars used for this project.
 
 ## Final Product
 
-!["screenshot of home page on initial load"](./docs/desktop.png)
-!["screenshot of writing a new tweet"](./docs/write-tweet.png)
-!["screenshot of mobile view"](./docs/mobile.png)
-!["screenshot of error message #1"](./docs/error-1.png)
-!["screenshot of error message #2"](./docs/error-2.png)
+- screenshot of home page on initial load
+  !["screenshot of home page on initial load"](./docs/desktop.png)
+- screenshot of writing a new tweet
+  !["screenshot of writing a new tweet"](./docs/write-tweet.png)
+- screenshot of mobile view
+  !["screenshot of mobile view"](./docs/mobile.png)
+- screenshot of error message #1
+  !["screenshot of error message #1"](./docs/error-1.png)
+- screenshot of error message #2
+  !["screenshot of error message #2"](./docs/error-2.png)
